@@ -3,18 +3,18 @@
       "scripts": [ "background.js" ]
    },
    "browser_action": {
-      "default_icon": "1_image/icon.png",
+      "default_icon": "img/logo1.png",
       "default_popup": "background.html",
-      "default_title": "TingDAO Pets"
+      "default_title": "TingVerse Pets"
    },
-   "description": "TingDAO Pet for your browser.",
+   "description": "TingVerse Pets for your browser ฅ(＾・ω・＾ฅ).",
    "icons": {
-      "128": "1_image/icon.png",
-      "16": "1_image/icon.png",
-      "48": "1_image/icon.png"
+      "128": "img/logo1.png",
+      "16": "img/logo1.png",
+      "48": "img/logo1.png"
    },
    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsrWg1u34/1QZBOr5GsDihozOhKsarwNeBH6NKFzD6C/HyI0BG1REIALGzgNcCD7h5QAXtBOjpONp5DiHeS5VKdTL+49yKPdhquVtMLuLyn3s58dfCkkugFkD3/0NDh0FrZCav89EykOupdKiPIS2uLIhQVlxeQrjPm5R44t1Se1CCGkIU604ewoRix8uZhejq9BW6YQN2/LF1zU4D2PfoysuHybOhqmb2R+U5ndpjE2t9mdEfKRHI8Qas/zH0IEKnCk13AztbwyiiY5ZVG/1R2ex5rFBaX2tDGAYMaiMu1+oDZKIeu0VxjhvtmYhnT5dvOzKQAq4vuLYOlns7u2aiwIDAQAB",
-   "manifest_version": 2, 
+   "manifest_version": 3, 
    "name": "TingDAO Pets",
    "permissions": [ "activeTab" ],
    "update_url": "https://clients2.google.com/service/update2/crx",
