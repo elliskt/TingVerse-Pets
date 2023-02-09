@@ -1,4 +1,4 @@
-import { Swiper } from "https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js";
+import { Swiper } from "./swiper-bundle.esm.browser.min.js";
 window.onload = () => {
   const swiper = new Swiper("#swiper", {
     autoplay: false,
@@ -12,9 +12,7 @@ window.onload = () => {
       prevEl: ".swiper-button-prev",
     },
   });
-
   document.getElementById("connect").addEventListener("click", async () => {
-    console.log('nihaoma')
     if (window.ethereum) {
       const address = await ethereum.request({
         method: "eth_accounts",
@@ -57,7 +55,7 @@ window.onload = () => {
     }
   });
 
-  document.getElementById("try1").addEventListener("click", function(){
+  document.getElementById("try1").addEventListener("click", function () {
     console.log("try111")
   });
 };
