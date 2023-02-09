@@ -19,6 +19,7 @@
       "16": "img/logo1.png",
       "48": "img/logo1.png"
    },
+
    "web_accessible_resources": [{"resources": ["img/*.png"],
                                  "matches": ["<all_urls>"]}]
 }

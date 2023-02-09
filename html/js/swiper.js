@@ -58,6 +58,6 @@ window.onload = () => {
   });
 
   document.getElementById("try1").addEventListener("click", function(){
-    console.log("try111");
+    console.log("try111")
   });
 };
