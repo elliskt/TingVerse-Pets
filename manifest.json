@@ -9,7 +9,7 @@
 
    // Browser action
    "action":{
-      "default_popup": "/html/popup.html",
+      "default_popup": "/html/demo.html",
       "default_title": "TingVerse Pets Default Title"
    },
    
